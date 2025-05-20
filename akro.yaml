@@ -1,0 +1,28 @@
+{
+  "mcp": {
+    "command": "npx -y @itseasy21/mcp-knowledge-graph",
+    "memory_file": "/Users/james/Library/Application Support/Claude/nous/memory.jsonl"
+  },
+  "doc_flow": {
+    "sequence": [
+      {
+        "client_spec": "docs/client_spec.md"
+      },
+      {
+        "roadmap": "docs/project_roadmap.md"
+      },
+      {
+        "progress": "docs/progress.md"
+      },
+      {
+        "phases": "docs/phases/*.md"
+      },
+      {
+        "stages": "docs/stages/*.md"
+      },
+      {
+        "reports": "docs/reports/*.md"
+      }
+    ]
+  }
+}
